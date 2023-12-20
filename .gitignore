@@ -1,20 +1,37 @@
-# .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Ignore virtual environment
-venv/
+# Local development settings
+local_settings.py
 
-# Ignore database
+# Database
 db.sqlite3
 
-# Ignore .env file
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Virtual environment
+venv/
 .env
 env
 
-# Ignore __pycache__ directory
-__pycache__/
-
-# Ignore compiled Python files
+# Compiled Python files
 *.pyc
 
-# Ignore local development settings
-settings_local.py
+# macOS
+.DS_Store
+
+# Visual Studio Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Log files
+*.log
