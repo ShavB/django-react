@@ -1,0 +1,20 @@
+# .gitignore
+
+# Ignore virtual environment
+venv/
+
+# Ignore database
+db.sqlite3
+
+# Ignore .env file
+.env
+env
+
+# Ignore __pycache__ directory
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore local development settings
+settings_local.py
