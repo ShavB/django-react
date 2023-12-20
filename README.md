@@ -35,6 +35,8 @@ python3 manage.py startapp api
 
 # enable cors
 If following the below project structure.
+
+# folder/project structure
     In the project structure
     ├── backend
     │   ├── api
